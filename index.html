@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 1</title>
+    <script src="task 1.js"></script>
+</head>
+<body>
+    <center>
+    <h1> SUNIL KUMAR 2006109 CSL3403 JS ASSIGNMENT</h1><hr><br>
+    <h2>Open the Console to view 3 persons details.</h2>
+    </center>
+</body>
+<script>
+    function Person(FirstName, LastName, Office_Address)
+{
+  this.FirstName = FirstName;
+  this.LastName = LastName;
+  this.Office_Address = Office_Address;
+}
+
+const p1 = new Person("Sunil","Kumar","Delhi");
+const p2 = new Person("Kamal","Kant","Mumbai");
+const p3 = new Person("Karan","Sharma","Kolkata");
+console.log('First Person:->');
+console.log(p1.FirstName,p1.LastName,p1.Office_Address);
+console.log('Second Person:->');
+console.log(p2.FirstName,p2.LastName,p2.Office_Address);
+console.log('Third Person:->');
+console.log(p3.FirstName,p3.LastName,p3.Office_Address)
+</script>
+</html>
